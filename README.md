@@ -1,6 +1,6 @@
 # AutoUFSTool
 
-<!--
+
 | No.  | Abbreviation | Article Name                                                                                                                                    |
 |------|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1    | `'CFS'`      | [Gene Selection for Cancer Classification using Support Vector Machines](https://doi.org/10.1023/A:1012487302797)                               |
@@ -27,4 +27,4 @@
 | 22   | `'rf'`       | [A Novel Unsupervised Approach to Heterogeneous Feature Selection Based on Fuzzy Mutual Information](https://doi.org/10.1109/TFUZZ.2021.3114734)| 
 | 23   | `'tv'`       | [Unsupervised attribute reduction for mixed data based on fuzzy](https://doi.org/10.1016/j.ins.2021.04.083)                                     | 
 | 24   | `'pcc'`      | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                       |
--->
+
