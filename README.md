@@ -1,10 +1,16 @@
 # Auto-UFSTool - An Automatic MATLAB Toolbox for Unsupervised Feature Selection
-Several open resource toolboxes provide feature selection algorithms to decrease redundant features, data dimensionality, and computing costs.
+
+. Several open resource toolboxes provide feature selection algorithms to decrease redundant features, data dimensionality, and computing costs.
 These approaches demand programming expertise, limiting their popularity, and they haven't adequately addressed unlabeled real-world data. Automatic MATLAB Toolbox for Unsupervised Feature Selection (Auto-UFSTool) is a library for 23 robust Unsupervised Feature Selection techniques. Our goal is to develop a user-friendly and fully-automatic toolbox utilizing various unsupervised feature selection methodologies from latest research. It is freely available in MATLAB File Exchange repository and each technique's script and source code are included. Therefore, without requiring a single line of code, a clear and systematic comparison of alternative approaches is possible.
 
 
+To run this Code, you will need to add the `functions` folder to your MATLAB path
 
 
+And then run the following script
+`Main.m`
+
+Table1: UFS names, their Type which is f = filters, w = wrappers, h = hybrid, and e = embedding methods, the abbreviation of their names
 
 | No.  | Abbreviation | Article Name                                                                                                                                 |
 |------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------|
