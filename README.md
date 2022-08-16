@@ -19,6 +19,14 @@ Result = Auto_UFSTool(X,Selection_Method);    (1)
 where Result represents the output rank indexes of features in descending order of their relative importance or subset of feature.
 As illustrated in (1) a user can utilize any UFS method using an interface `main.m`.
 
+* *`Result`*   : Rank indexes of features in descending order of their relative importance or Feature subset.
+* *`Selection_Method`*  : Selected Unsupervised Feature Selection Method
+* *`X(m×n)`*   : parameter settings
+    + *`m`* : Samples
+    + *`n`* : Features per samples
+
+
+
 It is demonstrated with an example. Based on the `COIL20` dataset.The COIL20 is a library of images from Columbia containing 20 objects. As each object is rotated on a turntable, 72 images were captured at 5 degrees apart, and each object contains 72 images. Each image is 32 by 32 pixels and contains 256 grey levels per pixel.
 As a result, with the input X, m = 1440 and n = 1024.
 After loading the data, one line of code to utilize the Unsupervised Feature Selection via Adaptive Graph Learning and Constraint (`EGCFS`) algorithm is presented below. 
@@ -30,14 +38,9 @@ Result=Auto_UFSTool(X,'EGCFS')                (2)
 - It is important to note that all the options and parameters of the methods will be automatically received from the user or their default values may be used when the method is implemented, not to mention that all UFS methods' names are mentioned in the `UFS_Names.mat` file. For any further information, kindly see the original publications and algorithm implementations.
 - The toolbox is written in MATLAB, a prominent programming language for machine learning and pattern recognition research.
 The Auto-UFSTool was tested on 64bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles
+- To run this Code, you will need to add the `functions` and `UFSs`folder to your MATLAB path
+And then run `main.m`.
 
-
-- How 
-To run this Code, you will need to add the `functions` folder to your MATLAB path
-
-
-And then run the following script
-`Main.m`
 
 ## Table1: UFS names, their Type which is f = filters, w = wrappers, h = hybrid, and e = embedding methods, the abbreviation of their names
 
@@ -67,3 +70,6 @@ And then run the following script
 | 22   | `'FRUAR'`    | [Unsupervised attribute reduction for mixed data based on fuzzy](https://doi.org/10.1016/j.ins.2021.04.083)                                  | 
 | 23   | `'U2FS'`     | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                    |
 
+## Documentation
+
+[Appendix](https://linktodocumentation)
