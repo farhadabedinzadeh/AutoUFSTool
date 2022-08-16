@@ -28,7 +28,7 @@ As illustrated in (1) a user can utilize any UFS method using an interface `main
 
 
 It is demonstrated with an example. Based on the `COIL20` dataset.The COIL20 is a library of images from Columbia containing 20 objects. As each object is rotated on a turntable, 72 images were captured at 5 degrees apart, and each object contains 72 images. Each image is 32 by 32 pixels and contains 256 grey levels per pixel.
-As a result, with the input X, m = 1440 and n = 1024.
+As a result, with the input X, `m = 1440` and `n = 1024`.
 After loading the data, one line of code to utilize the Unsupervised Feature Selection via Adaptive Graph Learning and Constraint (`EGCFS`) algorithm is presented below. 
 ```code
 Result=Auto_UFSTool(X,'EGCFS')                (2)    
@@ -71,5 +71,7 @@ And then run `main.m`.
 | 23   | `'U2FS'`     | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                    |
 
 ## Documentation
+For further questions, please see the appendix or feel free to contact developers
+[Appendix](https://mega.nz/file/6QR2mAAD#zBE3ucMg7SK1t8iITp0BfvJWWEtAhNvkpPgI20pvB6Y)
 
-[Appendix](https://linktodocumentation)
+
