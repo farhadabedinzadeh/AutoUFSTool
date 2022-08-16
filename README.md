@@ -16,14 +16,14 @@
 | 12   | `'SOGFS'`    | [Unsupervised Feature Selection with Structured Graph Optimization](https://doi.org/10.1609/aaai.v30i1.10168)                                   |
 | 13   | `'UFSOL'`    | [Unsupervised feature selection with ordinal locality](https://doi.org/10.1109/ICME.2017.8019357)                                               |
 | 14   | `'Inf-FS'`   | [Infinite Feature Selection](https://doi.org/10.1109/ICCV.2015.478)                                                                             |
-| 15   | `'tv'`       | [Dependence guided unsupervised feature selection](https://doi.org/10.1609/aaai.v32i1.11904)                                                    |
-| 16   | `'pcc'`      | [Unsupervised feature selection with multi-subspace randomization and collaboration](https://doi.org/10.1016/j.knosys.2019.07.027)              | 
-| 17   | `'CFS'`      | [Convex Non-Negative Matrix Factorization With Adaptive Graph for Unsupervised Feature Selection](https://doi.org/10.1109/tcyb.2020.3034462)    | 
-| 18   | `'rf'`       | [Unsupervised Feature Selection via Adaptive Graph Learning and Constraint](https://doi.org/10.1109/TNNLS.2020.3042330)                         | 
-| 19   | `'tv'`       | [Robust neighborhood embedding for unsupervised feature selection](https://doi.org/10.1016/j.knosys.2019.105462)                                | 
-| 20   | `'pcc'`      | [Infinite Feature Selection: A Graph-based Feature Filtering Approach](https://doi.org/10.1109/TPAMI.2020.3002843)                              | 
-| 21   | `'CFS'`      | [Fuzzy complementary entropy using hybrid-kernel function and its unsupervised attribute reduction](https://doi.org/10.1016/j.knosys.2021.107398) 
-| 22   | `'rf'`       | [A Novel Unsupervised Approach to Heterogeneous Feature Selection Based on Fuzzy Mutual Information](https://doi.org/10.1109/TFUZZ.2021.3114734)| 
-| 23   | `'tv'`       | [Unsupervised attribute reduction for mixed data based on fuzzy](https://doi.org/10.1016/j.ins.2021.04.083)                                     | 
-| 24   | `'pcc'`      | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                       |
+| 15   | `'DGUFS'`    | [Dependence guided unsupervised feature selection](https://doi.org/10.1609/aaai.v32i1.11904)                                                    |
+| 16   | `'SRCFS'`    | [Unsupervised feature selection with multi-subspace randomization and collaboration](https://doi.org/10.1016/j.knosys.2019.07.027)              | 
+| 17   | `'CNAFS'`    | [Convex Non-Negative Matrix Factorization With Adaptive Graph for Unsupervised Feature Selection](https://doi.org/10.1109/tcyb.2020.3034462)    | 
+| 18   | `'EGCFS'`    | [Unsupervised Feature Selection via Adaptive Graph Learning and Constraint](https://doi.org/10.1109/TNNLS.2020.3042330)                         | 
+| 19   | `'RNE'`      | [Robust neighborhood embedding for unsupervised feature selection](https://doi.org/10.1016/j.knosys.2019.105462)                                | 
+| 20  | `'Inf-FS2020'`| [Infinite Feature Selection: A Graph-based Feature Filtering Approach](https://doi.org/10.1109/TPAMI.2020.3002843)                              | 
+| 21   | `'UAR-HKCMI'`| [Fuzzy complementary entropy using hybrid-kernel function and its unsupervised attribute reduction](https://doi.org/10.1016/j.knosys.2021.107398) 
+| 22   | `'FMIUFS'`   | [A Novel Unsupervised Approach to Heterogeneous Feature Selection Based on Fuzzy Mutual Information](https://doi.org/10.1109/TFUZZ.2021.3114734)| 
+| 23   | `'FRUAR'`    | [Unsupervised attribute reduction for mixed data based on fuzzy](https://doi.org/10.1016/j.ins.2021.04.083)                                     | 
+| 24   | `'U2FS'`     | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                       |
 
