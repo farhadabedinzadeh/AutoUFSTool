@@ -40,6 +40,7 @@ Result=Auto_UFSTool(X,'EGCFS')                (2)
 The Auto-UFSTool was tested on 64bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles
 - To run this Code, you will need to add the `functions` and `UFSs`folder to your MATLAB path
 And then run `main.m`.
+- The Auto-UFSTool was tested on 64bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles.
 
 
 ## Table1: UFS names, their Type which is f = filters, w = wrappers, h = hybrid, and e = embedding methods, the abbreviation of their names
