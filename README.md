@@ -9,7 +9,7 @@ These approaches demand programming expertise, limiting their popularity, and th
 ## Introduction
 * This toolbox offers more than 20 Unsupervised Feature Selection methods.
 * Almost half of them have been proposed in the last five years.
-* This toolbox is user-friendly. After loading the data, users may launch certain procedures and applications without writing any single line of code.
+* This toolbox is user-friendly. After loading the data, users may launch certain procedures and applications without writing a single line of code.
 
 ## Usage
 In the presence of an input matrix X(m×n)(m samples and n features per samples), the process for utilizing one of the UFS methods in the toolbox is as follows:
