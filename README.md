@@ -72,9 +72,8 @@ And then run `main.m`.
 | 23   | `'U2FS'`     | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                    |
 
 ## Documentation
-For further questions, please see the appendix or feel free to contact developers.
+For further questions, please read the source articles or feel free to contact developers.
 
-- [Appendix](https://mega.nz/file/2UJXxJqJ#IXsiEcRe17WEH8oqvojUy4HLDAw39JzZaiR_Hw7wgNc)
 
 [![Mail](https://img.shields.io/badge/Gmail-farhaad.abedinzadeh%40gmail.com-critical?style=flat-square&logo=gmail)]()
 [![Yahoo - y.modaresnia@yahoo.com](https://img.shields.io/badge/Yahoo-y.modaresnia%40yahoo.com-2ea44f?logo=https%3A%2F%2Fmega.nz%2Ffile%2FbIoEnRRA%23CvFs356RFPPvv1BCUYhoAOotCI2xU8t2jgCkijOWKUs)](y.modaresnia@yahoo.com)
