@@ -74,16 +74,16 @@ And then run `main.m`.
 ## Evaluation
 K-Means clustering and 8 evaluation metrics can also be used to compare and evaluate the results of feature selection algorithms.
 
-| No.  |     Metric        |                                                                                                                  
-|------|-------------------|
-| 1    | `'Redundancy'`    |
-| 2    | `'Jaccard score '`|
-| 3    | `' Purity'`       |
-| 4    | `'NMI'`           |
-| 5    | `'Accuracy'`      |
-| 6    | `'Precision'`     |
-| 7    | `'Recall'`        |
-| 8    | `'F-measure'`     |
+| No.  |     Metric      |                                                                                                                  
+|------|-----------------|
+| 1    | `Redundancy`    |
+| 2    | `Jaccard score `|
+| 3    | `Purity`        |
+| 4    | `NMI`           |
+| 5    | `Accuracy`      |
+| 6    | `Precision`     |
+| 7    | `Recall`        |
+| 8    | `F-measure`     |
 
 ## Documentation
 For further questions, please read the source articles or feel free to contact developers.
