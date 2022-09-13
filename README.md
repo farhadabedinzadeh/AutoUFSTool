@@ -71,8 +71,25 @@ And then run `main.m`.
 | 22   | `'FRUAR'`    | [Unsupervised attribute reduction for mixed data based on fuzzy](https://doi.org/10.1016/j.ins.2021.04.083)                                  | 
 | 23   | `'U2FS'`     | [Utility metric for unsupervised feature selection](https://doi.org/10.7717/peerj-cs.477)                                                    |
 
+## Evaluation
+K-Means clustering and 8 evaluation metrics can also be used to compare and evaluate the results of feature selection algorithms.
+
+| No.  |     Metric        |                                                                                                                  
+|------|-------------------|
+| 1    | `'Redundancy'`    |
+| 2    | `'Jaccard score '`|
+| 3    | `' Purity'`       |
+| 4    | `'NMI'`           |
+| 5    | `'Accuracy'`      |
+| 6    | `'Precision'`     |
+| 7    | `'Recall'`        |
+| 8    | `'F-measure'`     |
+
 ## Documentation
 For further questions, please read the source articles or feel free to contact developers.
+
+
+
 
 
 [![Mail](https://img.shields.io/badge/Gmail-farhaad.abedinzadeh%40gmail.com-critical?style=flat-square&logo=gmail)]()
