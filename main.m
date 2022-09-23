@@ -27,6 +27,3 @@ load('COIL20.mat')
 Result = Auto_UFSTool(X,Selection_Method);
 %% Evaluation
 [Evaluation_Result,FeatureInuse,BaselineResult] = UFSEvaluation(X,Y,Result.Ranking);
-
-pcode UFSEvaluation
-pcode evalUnSupFS
