@@ -92,5 +92,5 @@ For further questions, please read the source articles or feel free to contact d
 
 
 
-[![Mail](https://img.shields.io/badge/Gmail-farhaad.abedinzadeh%40gmail.com-critical?style=flat-square&logo=gmail)]()
+[![Mail](https://img.shields.io/badge/Gmail-farhaad.abedinzade%40gmail.com-critical?style=flat-square&logo=gmail)]()
 [![Yahoo - y.modaresnia@yahoo.com](https://img.shields.io/badge/Yahoo-y.modaresnia%40yahoo.com-2ea44f?logo=https%3A%2F%2Fmega.nz%2Ffile%2FbIoEnRRA%23CvFs356RFPPvv1BCUYhoAOotCI2xU8t2jgCkijOWKUs)](y.modaresnia@yahoo.com)
