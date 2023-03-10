@@ -85,6 +85,12 @@ K-Means clustering and 8 evaluation metrics can also be used to compare and eval
 | 7    | `Recall`        |
 | 8    | `F-measure`     |
 
+## GUI
+![autoufss](https://user-images.githubusercontent.com/96732467/224272827-5a8e3eff-b4d9-47e3-ba63-653d965c9816.jpg)
+
+
+
+
 ## Documentation
 For further questions, please read the source articles or feel free to contact developers.
 
