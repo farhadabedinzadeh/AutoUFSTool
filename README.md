@@ -1,10 +1,20 @@
 # Auto-UFSTool - An Automatic MATLAB Toolbox for Unsupervised Feature Selection
 
+If you found this toolbox useful, kindly cite the following article:
+
+[Auto-UFSTool: An Automatic Unsupervised Feature Selection Toolbox for MATLAB](https://jad.shahroodut.ac.ir/article_2945.html)
+
+## Cite it as:
+
+```code
+Abedinzadeh Torghabeh, F., Modaresnia, Y., Hosseini, S. A. (2023). 'Auto-UFSTool: An Automatic Unsupervised
+Feature Selection Toolbox for MATLAB',Journal of AI and Data Mining, (), pp. -. doi: 10.22044/jadm.2023.12820.2434
+```
 
 ## Abstract
 
 - Several open resource toolboxes provide feature selection algorithms to decrease redundant features, data dimensionality, and computing costs.
-These approaches demand programming expertise, limiting their popularity, and they haven't adequately addressed unlabeled real-world data. Automatic MATLAB Toolbox for Unsupervised Feature Selection (Auto-UFSTool) is a library for 23 robust Unsupervised Feature Selection techniques. Our goal is to develop a user-friendly and fully-automatic toolbox utilizing various unsupervised feature selection methodologies from latest research. It is freely available in MATLAB File Exchange repository and each technique's script and source code are included. Therefore, without requiring a single line of code, a clear and systematic comparison of alternative approaches is possible.
+These approaches demand programming expertise, limiting their popularity, and they haven't adequately addressed unlabeled real-world data. Automatic MATLAB Toolbox for Unsupervised Feature Selection (Auto-UFSTool) is a library for 23 robust Unsupervised Feature Selection techniques. We aim to develop a user-friendly and fully automatic toolbox utilizing various unsupervised feature selection methodologies from the latest research. It is freely available in the MATLAB File Exchange repository, and the script and source code of each technique are included. Therefore, a clear and systematic comparison of alternative approaches is possible without requiring a single line of code.
 
 ## Introduction
 * This toolbox offers more than 20 Unsupervised Feature Selection methods.
@@ -12,7 +22,7 @@ These approaches demand programming expertise, limiting their popularity, and th
 * This toolbox is user-friendly. After loading the data, users may launch certain procedures and applications without writing a single line of code.
 
 ## Usage
-In the presence of an input matrix X(m×n)(m samples and n features per samples), the process for utilizing one of the UFS methods in the toolbox is as follows:
+In the presence of an input matrix X(m×n)(m samples and n features per sample), the process for utilizing one of the UFS methods in the toolbox is as follows:
 ```code
 Result = Auto_UFSTool(X,Selection_Method);    (1)
 ```
@@ -27,11 +37,11 @@ As illustrated in (1) a user can utilize any UFS method using an interface `main
 
 
 
-It is demonstrated with an example. Based on the `COIL20` dataset.The COIL20 is a library of images from Columbia containing 20 objects. As each object is rotated on a turntable, 72 images were captured at 5 degrees apart, and each object contains 72 images. Each image is 32 by 32 pixels and contains 256 grey levels per pixel.
+It is demonstrated with an example. Based on the `COIL20` dataset. The COIL20 is a library of images from Columbia containing 20 objects. As each object is rotated on a turntable, 72 images were captured at 5 degrees apart, each containing 72 images. Each image is 32 by 32 pixels and contains 256 grey levels per pixel.
 As a result, with the input X, `m = 1440` and `n = 1024`.
 After loading the data, one line of code to utilize the Unsupervised Feature Selection via Adaptive Graph Learning and Constraint (`EGCFS`) algorithm is presented below. 
 ```code
-Result=Auto_UFSTool(X,'EGCFS')                (2)    
+Result = Auto_UFSTool(X,'EGCFS')                (2)    
 ```
 
 ## Note
@@ -40,7 +50,7 @@ Result=Auto_UFSTool(X,'EGCFS')                (2)
 The Auto-UFSTool was tested on 64bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles
 - To run this Code, you will need to add the `functions` and `UFSs`folder to your MATLAB path
 And then run `main.m`.
-- The Auto-UFSTool was tested on 64bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles.
+- The Auto-UFSTool was tested on 64-bit Windows 8/10/11 PCs with MATLAB R2019b/R2022a on a range of publicly available datasets based on original articles.
 
 
 ## Table1: UFS names, their Type which is f = filters, w = wrappers, h = hybrid, and e = embedding methods, the abbreviation of their names
